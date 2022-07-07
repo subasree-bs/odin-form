@@ -1,0 +1,99 @@
+body{
+    margin: 0 !important;
+    padding: 0 !important;   
+    overflow-x: hidden;
+}
+.left{
+    background-image: url('https://data.whicdn.com/images/352887241/original.png') !important;
+    /* width: 100% !important; */
+    height: 100vh !important;
+    background-repeat: no-repeat;
+}
+.left_image{
+    height: 100vh !important;
+    /* width: 350px !important; */
+    position: relative;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.title{
+    position: absolute;
+    background-color: black !important;
+    opacity: 0.6;
+    width: 344px !important;
+    margin-top: 150px;
+    height:80px !important;
+    display: flex;
+    gap: 10px;
+}
+.comp_name{
+    color: white !important;
+    text-align: center;
+    font-size: 35px !important;
+    margin: 10px 0 0 0 !important;
+}
+.comp_logo{
+    height: 43px;
+    width: 43px;
+    margin-left: 80px;
+    margin-top: 17px;
+}
+/* .right{
+    display: inline-block !important;
+} */
+.wholecontent{
+    display: flex;
+}
+.topcont{
+    padding: 60px 25px 20px 30px;
+    /* margin-top: 50px; */
+}
+input{
+    width: 100%;
+    height: 15%;
+    margin-bottom: 10px !important;
+    /* box-shadow: 0 0 10px black; */
+    border: 2px solid pink !important;
+}
+input:focus{
+    border: 2px solid #120fe2 !important;
+    box-shadow: 0 0 10px white !important;
+}
+label{
+    font-size: 12px;
+    font-weight: 500;
+}
+form{
+    background-color: #d3dada;
+    padding: 5px 5px 25px 25px;
+    box-shadow: 0 0 10px #7a7a7a;
+}
+form:hover{
+    box-shadow: 0 0 10px black;
+}
+/* input:invalid{
+    border: 3px solid red;
+} */
+.col-4{
+    padding: 0 !important;
+}
+.col-8{
+    padding: 0 !important;
+}
+.bottomcont{
+    padding: 35px;
+}
+.acct{
+    padding: 10px 30px;
+    background-color: #596D48;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: small;
+    font-weight: bold;
+}
+.a_login{
+    color: #596D48;
+    text-decoration: none;
+    font-weight: 500;
+}
